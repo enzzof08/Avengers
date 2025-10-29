@@ -171,7 +171,7 @@ h1 {
 
 }
 
-.b6{
+.b6 {
     display: flex;
     position: absolute;
     width: 100vw;
@@ -182,12 +182,14 @@ h1 {
     font-size: 30px;
 
 }
-.next{
+
+.next {
     height: 50px;
     width: 40px;
     margin-top: -1px;
 }
-.c3{
+
+.c3 {
     display: flex;
     gap: 20px;
     background: #1a58c4;
@@ -198,4 +200,164 @@ h1 {
     align-items: center;
     border-radius: 20px;
 
+}
+
+@media (max-width: 1024px) {
+    img {
+        display: flex;
+        height: 60vh;
+        width: 84vh;
+        align-items: center;
+        margin-top: 230px;
+    }
+
+    .i1 {
+        margin-top: 1px;
+    }
+
+    .Lup {
+        margin-top: 10px;
+
+
+    }
+
+    .user {
+        margin-top: 5px;
+        margin-right: -70px;
+
+    }
+
+    header {
+        gap: 22px;
+
+
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+    h1 {
+        font-size: 60px;
+        margin-top: 85px;
+
+        width: 80vh;
+        padding-right: 200px;
+    }
+
+    .azul {
+        margin-top: 150px;
+        padding-right: 200px;
+        gap: 10px;
+
+    }
+
+    .b1 {
+        margin-top: 190px;
+        width: 80vh;
+        padding-right: 40px;
+
+    }
+
+    .c1 {
+        font-size: 20px;
+    }
+
+    .b2 {
+        position: absolute;
+        transform: translate(80%, 270%);
+
+        width: 500px;
+        height: 200px;
+
+
+    }
+
+    .b5 {
+
+
+        position: absolute;
+        transform: translate(-5%, 100%);
+
+    }
+
+    .b6 {
+        position: absolute;
+        transform: translate(-47%, 220%);
+    }
+
+    h3 {
+        position: absolute;
+        transform: translate(140%, 500%);
+
+    }
+
+    .b4 {
+
+        position: absolute;
+        transform: translate(25%, 1200%);
+    }
+
+    .corac {
+
+        position: absolute;
+        transform: translate(48%, 260%);
+
+    }
+
+}
+
+
+@media (max-width: 480px) {
+    header{
+        gap: 20px;
+        position: absolute;
+        transform: translate(60%, 0%);
+    }
+    h1{
+        font-size: 50px;
+        
+        
+        position: absolute;
+        transform: translate(5%, 0%); 
+    }
+    .azul{
+        position: absolute;
+        transform: translate(80%, -30%);
+    }
+
+    .c1{
+        font-size: 25px;
+        position: absolute;
+        transform: translate(-20%, 200%);
+    }
+    .b1{
+        
+        width: 400px;
+        height: 100px;
+        position: absolute;
+        transform: translate(-20%, -100%);
+    }
+    .b3{
+        
+        width: 300px;
+        height: 300px;
+        position: absolute;
+        transform: translate(90%, 80%);
+    }
+    .c3{
+        position: absolute;
+        transform: translate(200%, 100%);
+    }
+    .c2{
+
+        background-color: #1a58c4;
+        position: absolute;
+        transform: translate(130%, 100%);
+    }
+    h4{
+        width: 300px;
+        position: absolute;
+        transform: translate(140%, 3600%);
+    }
 }
