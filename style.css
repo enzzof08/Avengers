@@ -206,7 +206,7 @@ h1 {
     img {
         display: flex;
         height: 60vh;
-        width: 84vh;
+        width: 72vh;
         align-items: center;
         margin-top: 230px;
     }
@@ -214,6 +214,14 @@ h1 {
     .i1 {
         margin-top: 1px;
     }
+
+    /* .b1{
+        background-color: rgb(0, 0, 0);
+        width: 1px;
+        height: 1px;
+        position: absolute;
+        transform: translate(-90%, -11000%);
+    } */
 
     .Lup {
         margin-top: 10px;
@@ -253,14 +261,15 @@ h1 {
     }
 
     .b1 {
-        margin-top: 190px;
-        width: 80vh;
-        padding-right: 40px;
+        margin-top: 100px;
+        font-size: 12px;
+        padding-right: 500px;
 
     }
 
     .c1 {
         font-size: 20px;
+        padding-right: 25px;
     }
 
     .b2 {
@@ -305,10 +314,16 @@ h1 {
 
     }
 
+ .b3{
+    position: absolute;
+    transform: translate(-5%, 0%);
+ }
+
 }
 
 
 @media (max-width: 480px) {
+
     header{
         gap: 20px;
         position: absolute;
@@ -360,4 +375,6 @@ h1 {
         position: absolute;
         transform: translate(140%, 3600%);
     }
+
+
 }
